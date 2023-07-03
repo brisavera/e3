@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(/imagenes/background.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  background-color: #ffe2ec;
+  display: flex;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #ffe2ec;
+  border-radius: 3rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 200px;
+  font-family: "Poppins", sans-serif;
+}
+ul a {
+  color: #df0909;
+  text-decoration: none;
+  font-size: larger;
+  background-color: pink;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+/* =============HERO============ */
+main {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+  /* background-color: #ffe2ec; */
+  color: #df0909;
+}
+
+#hero {
+  max-width: 1200px;
+  margin-top: 10px;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  background-color: #ffe2ec;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+  width: 50%;
+  background-color: #ffe2ec;
+}
+
+.hero-info h1 {
+  font-size: 60px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bree Serif", serif;
+  font-weight: 900;
+  width: 100%;
+  background-color: #ffe2ec;
+}
+
+.hero-info p {
+  font-size: 16px;
+  width: 80%;
+  color: #e04f52;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bree Serif", serif;
+}
+
+.hero-info span {
+  color: #df0909;
+  font-weight: 800;
+}
+
+.hero-info a {
+  color: #df0909;
+  bbackground: #ee9ca7; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffdde1,
+    #ee9ca7
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 12px 12px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bree Serif", serif;
+  font-family: "Poppins", sans-serif;
+}
+
+#info {
+  padding: 5%;
+  max-width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#info p {
+  background-color: #e04f52;
+  border-radius: 10px;
+  color: white;
+  font-size: 16px;
+  padding: 5%;
+  gap: 30px;
+  font-family: "Bebas Neue", sans-serif;
+  font-family: "Bree Serif", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
